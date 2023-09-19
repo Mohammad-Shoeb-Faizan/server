@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const { encrypt, decrypt } = require("text-encryption-service");
+const { encrypt, decrypt } = require("text-encryption-service-v1");
 
 const app = express();
 const port = process.env.PORT || 3000;
